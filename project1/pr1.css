@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body, html {
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+}
+
+#container {
+    width: 400px;
+    height: 450px;
+    background-color: #BFBBA9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+#Dcontainer {
+    width: 100vw;
+    height: 70%;
+    background-color: #EAE2C6;
+    margin-top: auto ;
+
+}
+
+#circule{
+    position: fixed;
+    background-image:url('images/hassboulah.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 27%;
+    width: 8%;
+    height: 15%;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+#drb{
+    position: fixed;
+    margin: 150px;
+    width: 30px;
+    height: 30px;
+    background-image:url('images/dribble.png') ;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+#inst{
+    position: fixed;
+    margin: 60px;
+    width: 30px;
+    height: 30px;
+    background-image:url('images/insta.png') ;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+#link{
+    position: fixed;
+    margin: 100px;
+    width: 30px;
+    height: 30px;
+    background-image:url('images/linkdin.png') ;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+#gith{
+    position: fixed;
+    margin: 50px;
+    width: 30px;
+    height: 30px;
+    background-image:url('images/github.png') ;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
