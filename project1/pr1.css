@@ -10,6 +10,7 @@ body, html {
         height: 100vh;
         display: flex;
         justify-content: center;
+        text-align: center;
 }
 
 #container {
@@ -21,6 +22,8 @@ body, html {
     margin: auto;
     border-radius: 3%;
     overflow: hidden;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 #Dcontainer {
@@ -28,59 +31,83 @@ body, html {
     height: 70%;
     background-color: #EAE2C6;
     margin-top: auto ;
+    justify-content: center;
+    text-align: center;
 
 }
 
 #circule{
     position: fixed;
+    background-color: #BFBBA9;
+    padding: 10px;
     background-image:url('images/hassboulah.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     top: 27%;
-    width: 8%;
+    width: 7%;
     height: 15%;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
 }
 
-#drb{
-    position: fixed;
-    margin: 150px;
-    width: 30px;
-    height: 30px;
-    background-image:url('images/dribble.png') ;
-    background-size: cover;
-    background-position: center;
-    border: none;
+
+#social{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-#inst{
-    position: fixed;
-    margin: 60px;
-    width: 30px;
-    height: 30px;
-    background-image:url('images/insta.png') ;
-    background-size: cover;
-    background-position: center;
-    border: none;
+
+#feedback{
+    width: 100px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
-#link{
-    position: fixed;
-    margin: 100px;
-    width: 30px;
-    height: 30px;
-    background-image:url('images/linkdin.png') ;
-    background-size: cover;
-    background-position: center;
-    border: none;
+#project{
+    width: 100px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
-#gith{
-    position: fixed;
-    margin: 50px;
-    width: 30px;
-    height: 30px;
-    background-image:url('images/github.png') ;
-    background-size: cover;
-    background-position: center;
-    border: none;
+
+#h11{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #000;
+    margin-top: 15%;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    margin-top: 10px;
+}
+
+.buttons{
+    height: 10%;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin-left:10%;
+    margin-top: 10%;
 }
