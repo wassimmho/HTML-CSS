@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+
+}
+
+body{
+    background: #f3eae3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.card{
+    width: 600px;
+    height:450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left{
+    order: 1;
+    height: 100%;
+    width: 50%;
+    background-image:url("https://i.pinimg.com/736x/8c/0f/e4/8c0fe43fc106f746feb8b375f20e569e.jpg") ;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.right{
+    order: 2;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    padding-left: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.title2{
+    width: 250px;
+    font-size: 30px;
+    font-weight: 700 ;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+
+}
+
+.description{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.price{
+    height: 70px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.big{
+    order: 1;
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4a8c74;
+}
+
+.small{
+    order: 2;
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.addtocart{
+    width: 80%;
+    height: 40px;
+    background-color: #4a8c74;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    gap: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.link{
+    width: 100%;
+    color: black;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    display: block; 
+    text-align: center;
+}
