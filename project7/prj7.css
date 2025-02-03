@@ -1,0 +1,221 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color:#121826 ;
+    background-image: url(images/Background_image.svg);
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title1{
+    order: 1;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.link{
+    order: 2;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 900;
+    
+}
+.title2{
+    order: 3;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    order: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.card1{
+    height: 600px ;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #212936;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.img1{
+    order: 1;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdeed8;
+    margin-bottom: 25px;
+}
+.hand{
+    height: 50%;
+    width: 50%;
+    background-image: url('images/handimo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.minit1{
+    order: 2;
+    width: 90%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.des1{
+    order: 3;
+    color: white;
+    opacity: 60%;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.interimg1{
+    order: 4;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('images/photo_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+    height: 600px ;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #212936;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+.img2{
+    order: 1;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dee9fb;
+    margin-bottom: 25px;
+}
+.net{
+    height: 50%;
+    width: 50%;
+    background-image: url("https://em-content.zobj.net/source/google/412/goal-net_1f945.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.minit2{
+    order: 2;
+    width: 90%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.des2{
+    order: 3;
+    color: white;
+    opacity: 60%;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.interimg2{
+    order: 4;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('images/photo_1@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3{
+    height: 600px ;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #212936;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+.img3{
+    order: 1;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe5e7;
+    margin-bottom: 25px;
+}
+.chat{
+    height: 50%;
+    width: 50%;
+    background-image: url("https://em-content.zobj.net/source/lg/307/studio-microphone_1f399-fe0f.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.minit3{
+    order: 2;
+    width: 90%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.des3{
+    order: 3;
+    color: white;
+    opacity: 60%;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.interimg3{
+    order: 4;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('images/photo_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
