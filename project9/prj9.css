@@ -1,0 +1,145 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Outfit Thin',serif;
+    width: 100vw;
+    padding: 5vh 5vw;
+    background-color:#f3e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.omlette{
+    order: center;
+    width: 100%;
+    height: 30vh;
+    border-radius: 1vw;
+    background-image: url('images/image-omelette.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 4vh;
+}
+.title{
+    font-family: 'Young Serif',serif;
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+.subtitle{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    line-height: 2.5vh;
+}
+
+.time{
+    background: #fff7fc;
+    display: flex;
+    border-radius: 1vh;
+    padding: 3%;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.PR{
+    font-size: 1.2em;
+    color:#7a0d6f ;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+li{
+    text-indent: 1vw;
+    margin-bottom: 1.3vh;
+    font-weight: 900;
+}
+ul{
+    margin-left: 3vw;
+    list-style-type: disc;
+    margin-bottom: 3vh;
+}
+
+li::marker{
+    color: #975726;
+    font-weight: bold;
+}
+
+.ingre{
+    color: #975726;
+    font-size: 1.5em;
+    font-family: 'Young Serif',serif;
+    margin-bottom: 3vh;
+
+}
+
+.instru{
+    color: #975726;
+    font-size: 1.5em;
+    font-family: 'Young Serif',serif;
+    margin-bottom: 1.5vh;
+
+}
+.instruc{
+    margin-left: 2.5vw;
+}
+hr{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.nutri{
+    color: #975726;
+    font-size: 1.5em;
+    font-family: 'Young Serif',serif;
+    margin-bottom: 1.3vh;
+}
+
+.text{
+    font-weight: 900;
+    margin-bottom: 1.3vh;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+tr{
+    height: 4vh;
+
+}
+
+td:last-child{
+    color: #975726;
+    font-family: 'Outfit bold',serif;
+
+}
+
+.bold{
+    font-family: 'Outfit Bold';
+}
+.row:not(:last-child){
+    border-bottom: .2vh solid rgb(199, 199, 199);
+    
+}
+
+td{
+    padding-left: 3vw;
+}
