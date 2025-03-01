@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="pr15.css">
+</head>
+<body>
+    <h1>Welcom to guss the number</h1>
+    <h3>The rules are simple: Try to guess a number.<br>
+        If your guess is within 1-10 of the correct number. the circle will turn lime.<br>
+        If it's within 11-50, it will be yellow.<br>
+        If it's within 51-80, it will be orange.<br>
+        If it's within 81-100, the circle will turn red.
+    </h3>
+    <div id="target"></div>
+    <label for="user">Type the number here</label>
+    <input type="text" name="user" id="text">
+    <button id="submit" type="submit">submit</button>
+    <button id="replay">replay</button>
+    <button id="give">reveal</button>
+    <p id="cheat"></p>
+
+    <script src="pr15.js"></script>
+</body>
+</html>
