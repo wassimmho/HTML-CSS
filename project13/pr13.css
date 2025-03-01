@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
 body{
     margin:0;
-    box-sizing: border-box;
-    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 header {
     width: 100%;
@@ -12,25 +18,29 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    column-gap: 5px;
+    margin-bottom: 100px;
 }
 
-footer.h1{
+header span{
     order: 1;
+    font-size: 2em;
+    font-weight: bold;
 }
-footer.p{
+header p{
+    width: 550px;
     order: 2;
-    text-align: center;
-    border: 1px solid black;
+    font-size: small;
 }
 
 .container{
     column-gap: 0px;
-    margin-left: 100px;
+    margin-left: 350px;
     width: 100%;
     height: 150px;
-    position: fixed;
+    position: absolute;
     display: grid;
-    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-columns: 200px 200px 200px 200px;
 }
 
 .box1{
@@ -38,7 +48,7 @@ footer.p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: red;
+
 }
 .box2{
     grid-column:span 1;
@@ -50,6 +60,10 @@ footer.p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    background-color: rgb(1, 0, 58);
+    border-radius: 10px;
+    overflow: hidden;
 }
 .box4{
     grid-column:span 1;
@@ -59,29 +73,69 @@ footer.p{
 }
 
 #tab{
-    margin-left: 100px;
-    top: 300px;
+    margin-left: 150px;
+    top: 400px;
     position: absolute;
-    
+    table-layout: fixed;
+    box-sizing: border-box;
     text-align: center;
-    border-collapse: collapse; 
+    border-collapse: collapse;
+    /* width: 100%; */
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 th,td{
-    height: 60px;
-    width: 500px;
-}
-th:nth-child(1),td:nth-child(1){
-    background-color: gray;
-    color: white;
-}
-tr:not(:last-child){
-    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    height: 40px;
+    width: 200px;
 }
 
+th:nth-child(1),td:nth-child(1){
+    background-color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+tr:not(:last-child){
+    border-bottom: 1px solid #c2c2c2;
+}
+td:nth-child(4), th:nth-child(4) {
+    color: white ; /* Forces the color change */
+    background-color: rgb(1, 0, 58); /* If you want a background too */
+    
+}
 footer{
+    top: 900px;
+    font-size: small;
     position: absolute;
     bottom: 5px;
     width: 100%;
     text-align: center;
+}
+.btn{
+    width: 100%;
+    height: 70px;
+    margin-top:320px ;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 61, 255);
+    font-size: small;
+    font-weight: bold;
+}
+
+.btn img{
+    width: 10px;
+    height: 10px;
+}
+
+.box3 .btn{
+    background-color: orange;
+    color: white;
 }
