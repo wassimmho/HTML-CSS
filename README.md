@@ -27,3 +27,6 @@ A basic project to practice HTML and CSS. This repository contains a static webp
 
 ## Project 09
 ![PR9](./work-images/image9.png)
+
+## Project 10
+![PR10](./work-images/image10.png)

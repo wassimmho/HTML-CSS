@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="pr17.css">
+</head>
+<body>
+    <h1>Roll Dice</h1>
+    <p>Click the button to roll the dice.</p>
+    <label for="number">number of dice</label>
+    <input type="number" min="1" max="10" id="number" value="1">
+    <div id="btn">
+    <button onclick="roll()" id="rollbtn">roll dice</button>
+    <button onclick="reset()" id="reset">reset</button>
+    </div>
+    <div id="result"></div>
+    <div id="images"></div>
+    <script src="pr17.js"></script>
+</body>
+</html>
