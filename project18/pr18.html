@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="pr18.css">
+</head>
+<body>
+    <h1>🔐 Welcome to your Password Generator! 🔑</h1>
+
+    <div class="option">
+        <input type="radio" id="upper">
+        <label for="upper">Do you want uppercase letters?</label>
+    </div>
+
+    <div class="option">
+        <input type="radio" id="lower">
+        <label for="lower">Do you want lowercase letters?</label>
+    </div>
+
+    <div class="option">
+        <input type="radio" id="symb">
+        <label for="symb">Do you want symbols?</label>
+    </div>
+
+    <div class="option">
+        <input type="radio" id="numb">
+        <label for="numb">Do you want numbers?</label>
+    </div>
+
+    <div class="optiont">
+        <label for="passnum">How many characters in one password?</label>
+        <input type="text" id="passnum">
+    </div>
+
+    <button onclick="generatepassword()" id="generate">Generate Password</button>
+    <button onclick="reset()" id="generate">reset</button>
+
+    <p id="password"></p>
+    
+    <script src="pr18.js"></script>
+</body>
+</html>
